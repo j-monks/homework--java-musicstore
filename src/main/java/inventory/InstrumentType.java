@@ -1,4 +1,4 @@
-package instruments;
+package inventory;
 
 public enum InstrumentType {
     PERCUSSION,
