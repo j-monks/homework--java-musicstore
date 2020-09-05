@@ -40,4 +40,11 @@ public class ShopTest {
         shop.removeItemFromStock(guitar);
         assertEquals(0, shop.getStock());
     }
+
+    @Test
+    public void canCalculateTotalPotentialProfit() {
+        shop.addItemToStock(guitar);
+        shop.addItemToStock(drumStick);
+        assertEquals(319.04, shop.calculateTotalPotentialProfit(), 0.5);
+    }
 }
