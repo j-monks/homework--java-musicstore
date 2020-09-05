@@ -9,7 +9,7 @@ public class ShopItem {
     private Instrument instrument;
 
     public ShopItem(Instrument instrument, double purchasePrice, double sellPrice) {
-//        this.description = Instrument;
+//      this.description = Instrument;
         this.purchasePrice = purchasePrice;
         this.sellPrice = sellPrice;
     }
